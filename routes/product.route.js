@@ -6,8 +6,9 @@ const router = express.Router();
 const product_controller = require('../controllers/product.controller');
 
 // a smiple test URL. Request controller for route /test will be defied in cotroller
-router.get('/test',product_controller.test);
-router.get('/date',product_controller.date);
+router.get('/healthcheck',product_controller.healthcheck);
+router.post('/login',product_controller.login);
+//router.post('/date',product_controller.createaccount);
 
 module.exports = router;
 
