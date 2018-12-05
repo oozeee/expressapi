@@ -12,6 +12,7 @@
     "express": "^4.16.4",
     "joi": "^14.3.0",
     "json-parser": "^1.1.5",
-    "mongoose": "^5.3.14"
+    "mongoose": "^5.3.14",
+    "serverless-http": "^1.8.0"
   }
 }
