@@ -17,7 +17,7 @@ function tokenValidation(request){
 /// health check ///
 exports.healthcheck = (req, res) => {
     const response = {
-        message: 'In good health...'
+        message: 'In good health....'
     }
     res.send(response);
 };
