@@ -1,3 +1,8 @@
+
+Pre-requisite
+=============
+- Node.js (Download and installation details are available at https://nodejs.orgs)
+
 Start local app
 ===============
 - node app.local.js
